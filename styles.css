@@ -453,15 +453,19 @@ header .navbar a:hover{
 .footer .share{
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 3rem;
     flex-wrap: wrap;
+    font-size: 2rem;
+    color: #eee;
+    cursor: pointer;
 }
+
 
 .footer .credit{
     padding: 2.5rem 1rem;
     color: #fff;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .footer .credit span{
@@ -474,7 +478,7 @@ header .navbar a:hover{
     top: -120%;
     right: 2rem;
     padding: .5rem 1.5rem;
-    font-size: 4rem;
+    font-size: 3rem;
     background: var(--red);
     color: #fff;
     border-radius: .5rem;
